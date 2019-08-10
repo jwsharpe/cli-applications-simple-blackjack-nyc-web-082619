@@ -19,7 +19,9 @@ def get_user_input
 end
 
 def end_game
-  # code #end_game here
+  puts "sorry"
+  puts card_sum
+  puts "hi"
 end
 
 def initial_round

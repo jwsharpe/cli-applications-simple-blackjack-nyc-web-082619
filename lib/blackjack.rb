@@ -43,7 +43,7 @@ def hit?(card_total)
   
   if(user_var != 's' && user_var != 'h')
     invalid_command
-    hit(card_total)
+    hit?(card_total)
   end
     
   sum

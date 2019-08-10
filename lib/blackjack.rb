@@ -35,12 +35,15 @@ def hit?(card_total)
   
   if(user_var == 'h')
     sum += deal_card
+  end
     
   if(user_var == 's')
     card_total
+  end
   
   if(user_var != 's' && user_var != 'h')
     invalid_command
+  end
     
   sum
   

@@ -31,9 +31,10 @@ end
 def hit?(card_total)
   prompt_user
   user_var = get_user_input
+  sum = card_total
   
   if(user_var == 'h')
-    card_total += deal_card
+    sum += deal_card
     
   if(user_var == 's')
     card_total
@@ -41,7 +42,7 @@ def hit?(card_total)
   if(user_var != 's' && user_var != 'h')
     invalid_command
     
-  card_total
+  sum
   
 end
 
